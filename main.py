@@ -27,6 +27,9 @@ logging.basicConfig(
     filename="world.log",
     # encoding="utf-8",
 )
+os.system("mkdir ./models/")
+os.system("mkdir ./cache/")
+
 logger = logging.getLogger(__name__)
 
 logger.debug("Starting")
